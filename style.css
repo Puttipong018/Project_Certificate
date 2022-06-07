@@ -21,6 +21,7 @@ button{
     font-size: 20px;
     margin-left: 35%;
     margin-top: 2%;
+    border-radius: 15px;
 }
 
 input{
@@ -36,7 +37,7 @@ input{
     text-align: center;
     padding: 20px 20px;
     background: #78909c;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 450px;
     margin-top: 5%;
     margin-left: 35%;
@@ -48,9 +49,19 @@ input{
     text-align: center;
     padding: 20px 20px;
     background: #78909c;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 450px;
     margin-top: 5%;
     margin-left: 35%;
+}
+
+.credit{
+    font-size: 25px;
+    color: #424242;
+    text-align: center;
+    /* padding: 1px 5px; */
+    /* background:#78909c; */
+    max-width: 100%;
+    margin-top: 5%;
 }
 
