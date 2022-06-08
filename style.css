@@ -1,3 +1,11 @@
+*{
+    font-size: 1rem;
+}
+
+html{
+    font-size:  calc(60% + 0.8vmin);
+}
+
 body {
     background: #9292D1;
 }
@@ -6,6 +14,7 @@ h1 {
     color: #424242;
     text-align: center;
     text-shadow: 1px 1.5px;
+    font-size: 2rem;
 }
 
 h3{
@@ -22,6 +31,11 @@ button{
     margin-left: 35%;
     margin-top: 2%;
     border-radius: 15px;
+
+}
+
+button:hover{
+    transform: scale(0.9);
 }
 
 input{
@@ -41,7 +55,12 @@ input{
     max-width: 450px;
     margin-top: 5%;
     margin-left: 35%;
+    /* display: none; */
 }
+
+/* .vat_Price.show {
+    opacity: 1 ;
+} */
 
 .all_Price{
     color: #fff;
@@ -53,7 +72,12 @@ input{
     max-width: 450px;
     margin-top: 5%;
     margin-left: 35%;
+    /* display: none; */
 }
+
+/* .all_Price.show{
+    opacity: 1;
+} */
 
 .credit{
     font-size: 25px;
